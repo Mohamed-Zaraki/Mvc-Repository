@@ -64,12 +64,12 @@ public class View extends JFrame {
 	
 		this.setVisible(true);
 	}
-	private  <T extends JComponent>  JPanel createComponentPanel(String labelText , T textField) {
+	private  <T extends JComponent>  JPanel createComponentPanel(String labelText , T text) {
         JPanel panel = new JPanel(new BorderLayout());
         JLabel label = new JLabel(labelText);
         label.setFont(new Font("SansSerif" , Font.BOLD ,14));
         panel.add(label, BorderLayout.WEST);
-        panel.add(textField, BorderLayout.CENTER);
+        panel.add(text, BorderLayout.CENTER);
         return panel;
     }
 	public JButton getAjouter() {
