@@ -14,6 +14,7 @@ import java.awt.event.MouseListener;
 import javax.security.auth.callback.ConfirmationCallback;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
+import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -85,7 +86,10 @@ public class TacheController {
 						public void actionPerformed(ActionEvent e) {
 							if(e.getSource() == view.getValider())
 							{
+//								JButton button = new JButton("Cancel");
+//								view.getFooterPanel().add(button);
 								box.setVisible(true);
+								
 							}
 							
 						}

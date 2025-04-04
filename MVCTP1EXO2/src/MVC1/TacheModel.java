@@ -6,6 +6,7 @@ import java.util.List;
 public class TacheModel {
 	
 	private List<String> Taches = new ArrayList<>();
+	private  boolean validate = false;
 	
 	public TacheModel()
 	{
@@ -27,6 +28,12 @@ public class TacheModel {
 	public void Supprimer(String Contenu)
 	{
 		Taches.remove(Contenu);
+	}
+	public boolean isValidate() {
+		return validate;
+	}
+	public void setValidate(boolean validate) {
+		this.validate = validate;
 	}
 	
 	

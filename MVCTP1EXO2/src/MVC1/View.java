@@ -27,7 +27,7 @@ public class View extends JFrame {
 	{
 		this.setTitle("Gestion Des Taches");
 		this.setSize(600, 800);
-		this.setResizable(false);
+//		this.setResizable(false);
 		this.setLayout(new BorderLayout());
 		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
 		  MainPanel = new JPanel();
